@@ -1,0 +1,276 @@
+{
+	"name": "Openload",
+	"description": "Connect to the Openload File Sharing API to upload, share and edit any file. Test an API call in your browser and export the code snippet into your app.",
+	"connect": {
+		"username": "qa-project",
+		"password": "481bab2d-e8fe-4214-8714-bab8157356e4"
+	},
+	"dependencies": {
+
+	},
+	"blocks": [
+		{
+			"name": "getAccountInfo",
+			"note": "",
+			"skip": false,
+			"params": [			
+				{
+					"key": "login",
+					"value": ""
+				}, 			
+				{
+					"key": "key",
+					"value": ""
+				}
+			]
+		}, 		
+		{
+			"name": "preparingDownload",
+			"note": "",
+			"skip": false,
+			"params": [			
+				{
+					"key": "login",
+					"value": ""
+				}, 			
+				{
+					"key": "key",
+					"value": ""
+				}, 			
+				{
+					"key": "fileId",
+					"value": ""
+				}
+			]
+		}, 		
+		{
+			"name": "getDownloadLink",
+			"note": "",
+			"skip": false,
+			"params": [			
+				{
+					"key": "fileId",
+					"value": ""
+				}, 			
+				{
+					"key": "ticket",
+					"value": ""
+				}, 			
+				{
+					"key": "captchaResponse",
+					"value": ""
+				}
+			]
+		}, 		
+		{
+			"name": "checkFileStatus",
+			"note": "",
+			"skip": false,
+			"params": [			
+				{
+					"key": "login",
+					"value": ""
+				}, 			
+				{
+					"key": "key",
+					"value": ""
+				}, 			
+				{
+					"key": "fileId",
+					"value": ""
+				}
+			]
+		}, 		
+		{
+			"name": "uploadFile",
+			"note": "",
+			"skip": false,
+			"params": [			
+				{
+					"key": "login",
+					"value": ""
+				}, 			
+				{
+					"key": "key",
+					"value": ""
+				}, 			
+				{
+					"key": "file",
+					"value": ""
+				}, 			
+				{
+					"key": "folderId",
+					"value": ""
+				}
+			]
+		}, 		
+		{
+			"name": "uploadFileRemotely",
+			"note": "",
+			"skip": false,
+			"params": [			
+				{
+					"key": "login",
+					"value": ""
+				}, 			
+				{
+					"key": "key",
+					"value": ""
+				}, 			
+				{
+					"key": "url",
+					"value": ""
+				}, 			
+				{
+					"key": "folderId",
+					"value": ""
+				}
+			]
+		}, 		
+		{
+			"name": "checkRemoteUploadStatus",
+			"note": "",
+			"skip": false,
+			"params": [			
+				{
+					"key": "login",
+					"value": ""
+				}, 			
+				{
+					"key": "key",
+					"value": ""
+				}, 			
+				{
+					"key": "id",
+					"value": ""
+				}, 			
+				{
+					"key": "limit",
+					"value": ""
+				}
+			]
+		}, 		
+		{
+			"name": "showFoldersContent",
+			"note": "",
+			"skip": false,
+			"params": [			
+				{
+					"key": "login",
+					"value": ""
+				}, 			
+				{
+					"key": "key",
+					"value": ""
+				}, 			
+				{
+					"key": "folderId",
+					"value": ""
+				}
+			]
+		}, 		
+		{
+			"name": "renameFolder",
+			"note": "",
+			"skip": false,
+			"params": [			
+				{
+					"key": "login",
+					"value": ""
+				}, 			
+				{
+					"key": "key",
+					"value": ""
+				}, 			
+				{
+					"key": "folderId",
+					"value": ""
+				}, 			
+				{
+					"key": "name",
+					"value": ""
+				}
+			]
+		}, 		
+		{
+			"name": "renameFile",
+			"note": "",
+			"skip": false,
+			"params": [			
+				{
+					"key": "login",
+					"value": ""
+				}, 			
+				{
+					"key": "key",
+					"value": ""
+				}, 			
+				{
+					"key": "fileId",
+					"value": ""
+				}, 			
+				{
+					"key": "name",
+					"value": ""
+				}
+			]
+		}, 		
+		{
+			"name": "convertFiles",
+			"note": "",
+			"skip": false,
+			"params": [			
+				{
+					"key": "login",
+					"value": ""
+				}, 			
+				{
+					"key": "key",
+					"value": ""
+				}, 			
+				{
+					"key": "fileId",
+					"value": ""
+				}
+			]
+		}, 		
+		{
+			"name": "getRunningFileConverts",
+			"note": "",
+			"skip": false,
+			"params": [			
+				{
+					"key": "login",
+					"value": ""
+				}, 			
+				{
+					"key": "key",
+					"value": ""
+				}, 			
+				{
+					"key": "folderId",
+					"value": ""
+				}
+			]
+		}, 		
+		{
+			"name": "getVideoThumbnail",
+			"note": "",
+			"skip": false,
+			"params": [			
+				{
+					"key": "login",
+					"value": ""
+				}, 			
+				{
+					"key": "key",
+					"value": ""
+				}, 			
+				{
+					"key": "fileId",
+					"value": ""
+				}
+			]
+		}
+	]
+}
