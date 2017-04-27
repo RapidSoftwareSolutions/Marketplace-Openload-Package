@@ -1,3 +1,10 @@
+<p align="left">
+  <a href="https://rapidapi.com/package/Openload/functions?utm_source=RapidAPIGitHub_Openload&utm_medium=button&utm_content=RapidAPI_GitHub">
+    <img src="https://storage.googleapis.com/rapidapi-temp/background.png"/>
+  </a>
+</p>
+
+
 # Openload Package
 Connect to the Openload File Sharing API to upload, share and edit any file. Test an API call in your browser and export the code snippet into your app.
 * Domain: [openload.co](https://openload.co)
