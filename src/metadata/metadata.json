@@ -2,7 +2,7 @@
   "package": "Openload",
   "tagline": "Openload API",
   "description": "Connect to the Openload File Sharing API to upload, share and edit any file. Test an API call in your browser and export the code snippet into your app.",
-  "image": "https://logo.clearbit.com/openload.co",
+  "image": "https://openload.co/assets/img/logo.png",
   "repo": "https://github.com/RapidSoftwareSolutions/Marketplace-Openload-Package",
   "keywords": [
     "API",

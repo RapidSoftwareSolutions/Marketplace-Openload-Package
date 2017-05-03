@@ -1,8 +1,4 @@
-<p align="left">
-  <a href="https://rapidapi.com/package/Openload/functions?utm_source=RapidAPIGitHub_OpenloadFunctions&utm_medium=button&utm_content=RapidAPI_GitHub">
-    <img src="https://storage.googleapis.com/rapidapi-temp/background.png"/>
-  </a>
-</p>
+[![](https://scdn.rapidapi.com/RapidAPI_banner.png)](https://rapidapi.com/package/Openload/functions?utm_source=RapidAPIGitHub_OpenloadFunctions&utm_medium=button&utm_content=RapidAPI_GitHub)
 
 
 # Openload Package
